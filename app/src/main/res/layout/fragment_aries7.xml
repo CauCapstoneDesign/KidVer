@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스는 전령신 헤르메스를 불러 황금빛 숫양을 오누이에게 보내라고 했습니다.
+오누이는 헤르메스가 데려온 황금 양의 등에 올라 탔습니다.
+오누이를 태운 양은 쏜살같이 하늘을 날아올랐습니다.
+그러나 너무 빨리 나는 바람에 동생 헬레는 그만 잡고 있던 손을 놓쳐 바다로 떨어져 죽고 말았어요."/>
+
+
+</LinearLayout>

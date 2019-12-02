@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그러다 바닷가에서 놀고 있는 공주를 보자 눈처럼 하얀 소로 모습을 바꾸고 공주 앞에 나타나던 거예요.
+하얀 소가 제우스라는 것을 알리 없는 공주는 그만 소의 아름다움에 반해 버렸습니다.
+공주는 시녀들과 함께 하얀 소의 등을 어루만지며 즐거워했어요."/>
+
+
+</LinearLayout>

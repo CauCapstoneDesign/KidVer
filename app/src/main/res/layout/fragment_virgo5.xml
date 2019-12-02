@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그러다가 딸이 지하 세계로 납치된 것을 알고는 눈물로 하루하루를 보냈습니다.
+데메테르가 깊은 슬픔에 빠저 있는 동안 대지는 점점 황폐해져 갔습니다.
+꽃은 시들고 과일나무에서는 과일이 열리지않았으며, 논과 밭은 갈라져 곡식이 자라지 못했죠.
+수확을 못하게 되자 사람들의 원성도 날이 갈수록 높아만 갔어요."/>
+
+
+</LinearLayout>

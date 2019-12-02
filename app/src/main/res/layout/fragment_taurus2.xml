@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="옛날에 아게놀 왕이 다스리는 페니키아라는 나라가 있었습니다.
+그 곳은 지중해 연안에 있어 늘 푸른 바다를 볼 수 있는 그림처럼 아름답고 평화로운 나라였어요.
+아게놀 왕에게는 에우로페라는 요정처럼 귀여운 공주가 있었습니다.
+평화로운 나라를 거느리며 어여쁜 공주와 함께 지내는 왕은 세상에 부러울 것이 없었지요."/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="공주를 태운 하얀 소는 들판을 달리고, 산을 넘고, 바다를 건넜습니다.
+영문을 모르는 공주는 두려움에 몸을 떨 뿐이었어요.
+공주를 태우고 크레타 섬까지 온 햐얀 소는 어느 동굴로 들어 갔습니다.
+그 곳은 제우스가 어린 시절을 보냈던 곳인데, 공주를 자신의 아내로 맞기 위해 이미 아름답게 꾸며져 있었습니다."/>
+
+
+</LinearLayout>

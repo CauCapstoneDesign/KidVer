@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="어느 봄날, 페르세포네는 향기로운 봄바람에 취해 숲으로 들어 갔습니다.
+숲 속에는 막 봉오리를 벌리기 시작한 어린 봄꽃들이 사방에 피어있었습니다.
+페르세포네는 시간 가는 줄 모르고 꽃과 놀고 있었어요.
+그 때 땅속 깊은 곳에서 '쿵쿵'하고 이상한 소리가 들려 왔어요.
+그리고 순식간에 땅이 갈라지더니 네 마리의 검은 말이 이끄는 황금 마차가 나타났어요."/>
+
+</LinearLayout>

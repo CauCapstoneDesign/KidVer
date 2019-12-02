@@ -2,22 +2,34 @@ package com.example.snkids;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class ConstellationStoryActivity extends Activity {
+
+    int back;
+    int click;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_constellationstory);
-
+        final SoundPool sp = new SoundPool(1,
+                AudioManager.STREAM_MUSIC,
+                0);
+        back = sp.load(this, R.raw.back, 1);
+        click = sp.load(this, R.raw.select, 1);
 
         ImageButton btn_back = findViewById(R.id.btn_back);
+
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sp.play(back, 1, 1, 0, 0, 1);
                 finish();
             }
         });
@@ -27,6 +39,7 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "궁수자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
                 Intent Intent = new Intent(getApplicationContext(), sagittariusActivity.class);
                 startActivity(Intent);
             }
@@ -37,6 +50,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "염소자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), capricornActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -45,6 +61,10 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "물병자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), aquariusActivity.class);
+                startActivity(Intent);
+
             }
         });
 
@@ -53,6 +73,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "물고기자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), piecesActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -61,6 +84,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "양자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), ariesActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -69,6 +95,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "황소자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), taurusActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -77,6 +106,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "쌍둥이자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), geminiActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -85,6 +117,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "게자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), cancerActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -93,6 +128,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "사자자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), leoActivity.class);
+                startActivity(Intent);
             }
         });
 
@@ -101,6 +139,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "처녀자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), virgoActivity.class);
+                startActivity(Intent);
             }
         });
         ImageButton btn_libra = findViewById(R.id.btn_libra);
@@ -108,6 +149,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "천칭자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), libraActivity.class);
+                startActivity(Intent);
             }
         });
         ImageButton btn_scorpio = findViewById(R.id.btn_scorpio);
@@ -115,6 +159,9 @@ public class ConstellationStoryActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(ConstellationStoryActivity.this, "전갈자리", Toast.LENGTH_SHORT).show();
+                sp.play(click, 1, 1, 0, 0, 1);
+                Intent Intent = new Intent(getApplicationContext(), scorpiusActivity.class);
+                startActivity(Intent);
             }
         });
     }

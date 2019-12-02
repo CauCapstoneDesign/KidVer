@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="하얀 소는 원래의 모습인 제우스로 바꾸고 두려워하고 있는 공주에게 사랑을 맹세했습니다.
+'평생 세상의 어떤 여자도 부럽지 않을 행복을 주겠소.
+그리고 우리의 자손들은 당신의 이름을 붙인 새로운 땅에서 생활하도록 할 것이오.'"/>
+
+
+</LinearLayout>

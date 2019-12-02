@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="아주 오랜 옛날, 보이오티아에 아타마스라는 왕과 구름의 요정인 네펠레 왕비가 살고 있었습니다.
+두 사람 사이에는 아들 플리크소스와 헬레라는 예쁜 딸이 있었어요.
+이들이 사는 궁궐은 언제나 웃음소리가 끊이지 않고 행복이 넘쳐 흘렀습니다."/>
+
+</LinearLayout>

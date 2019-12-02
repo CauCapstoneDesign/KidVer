@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="아스트라에아는 사람들을 찾아다니며 정의를 가르쳤습니다.
+물론 악의 세계에 빠진 사람들에게 여신의 가르침은 소 귀에 경 읽기였습니다.
+사람들을 설득하다 지친 여신은 드디어 지상을 떠나기로 했습니다."/>
+
+
+</LinearLayout>

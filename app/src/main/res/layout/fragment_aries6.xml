@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="네펠레 왕비는 신전의 사자마저 이노의 계략에 넘어갔다는 사실을 알았습니다.
+그래서 제우스를 찾아가 도움을 청했습니다.
+'지혜로운 신 제우스여, 제 아들을 살려 주세요. 아들은 지금 이노의 함정에 빠져 생명이 위태롭습니다.'
+'이노의 나쁜 짓은 나도 알고 있었다.  네 아이들을 영원히 행복하게 살 수 있는 나라로 보내 주겠다.'"/>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="판은 도망치는 그녀를 쫓아가며 애원했지만 슈린크스는 뒤도 돌아보지 않고 달렸어요.
+이윽고 슈린크스는 넓은 강 앞에 다다랐습니다. 강을 건너지 않고는 더 이상 달아날 수 없는 상황이었어요.
+슈린크스는 강 앞에 서서 울면서 애원을 했습니다."/>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="사람들 모두가 형제 같았어요.
+들에는 언제나 꽃이 만발했고 농사를 짓지 않아도 일 년 내내 곡식이 풍성했습니다.
+사람들과 신들이 어울려 사는 행복한 시대였지요."/>
+
+</LinearLayout>

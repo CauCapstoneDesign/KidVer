@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="어느화창한 날, 공주는 시녀들과 함께 바닷가에서 놀고 있었습니다.
+그 때 하얀 소 한 마리가 공주 앞에 나타났습니다.
+그 하얀 소는 제우스가 변신한 모습이었어요.
+오래 전부터 공주를 짝사랑하고 있었던 제우스는 어떻게 하면 공주의 마음을 사로잡을 수 있을까 고민을 해 왔습니다."/>
+
+</LinearLayout>

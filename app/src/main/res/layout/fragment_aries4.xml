@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="이노 왕비는 드디어 네펠레의 아이들을 없애 버리기 위해 계획을 세웠습니다.
+농부들에게 보리 씨앗을 모조리 불에 태워 버리 라고 한 것입니다.
+타 버린 보리 씨앗은 밭에 뿌려도 싹이 나오지 않았습니다.
+이노의 계획대로 그 해는 큰 흉년이 들었습니다."/>
+
+
+</LinearLayout>

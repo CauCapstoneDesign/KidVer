@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="지하 세계의 음식을 조금이라도 먹은 사람은 그 곳과의 인연을 끊을 수 없었거든요.
+'페르세포네가 열매를 네 개나 먹었으니 1년 중 넉 달은 지하 세계에서 지내지 않으면 안 된다.
+그러나 나머지 기간은 지상으로 올라오도록 해 주겠노라'"/>
+
+
+</LinearLayout>

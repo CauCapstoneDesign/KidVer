@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그제서야 키론은 고통을 잊고 편안하게 잠들었어요. 키론을 아끼는 많은 신들은 그의 죽음을
+ 안타까워했어요. 총명한 학자를 잃은 제우스의 슬픔도 컸습니다. 제우스는 키론의 죽음을 안타깝게 여겨 하늘의 별자리로 만들었어요.
+ 상반신은 사람, 하반신은 말인 채 활을 든 궁수의 모습으로 말이에요."/>
+
+
+</LinearLayout>

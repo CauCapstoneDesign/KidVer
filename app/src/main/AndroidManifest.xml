@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_rocket"
         android:label="Starry Night★ KIDs"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_rocket_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -25,8 +25,27 @@
         <activity android:name=".GameActivity" />
         <activity android:name=".ConstellationStoryActivity" />
         <activity android:name=".QuizmainActivity" />
-        <activity android:name=".sagittariusActivity"
-            android:theme="@style/AppTheme"/>
+        <activity android:name=".sagittariusActivity"/>
+        <activity android:name=".capricornActivity"/>
+        <activity android:name=".aquariusActivity"/>
+        <activity android:name=".leoActivity"/>
+        <activity android:name=".libraActivity"/>
+        <activity android:name=".virgoActivity"/>
+        <activity android:name=".taurusActivity"/>
+        <activity android:name=".ariesActivity"/>
+        <activity android:name=".geminiActivity"/>
+        <activity android:name=".cancerActivity"/>
+        <activity android:name=".piecesActivity"/>
+        <activity android:name=".scorpiusActivity"/>
+        <activity android:name=".GalaxySunActivity"/>
+        <activity android:name=".GalaxyMerActivity"/>
+        <activity android:name=".GalaxyVenActivity"/>
+        <activity android:name=".GalaxyEarActivity"/>
+        <activity android:name=".GalaxyMarActivity"/>
+        <activity android:name=".GalaxyJupActivity"/>
+        <activity android:name=".GalaxySatActivity"/>
+        <activity android:name=".GalaxyUraActivity"/>
+        <activity android:name=".GalaxyNepActivity"/>
     </application>
 
 </manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="거인족의 공격을 받은 신들은 재빨리 여러가지 동물으로 변신해 도망쳤습니다.
+판도 서둘러 주문을 외운다는 것이 그만 잘못해서 상반신은 뿔과 수염을 가진 염소로,
+하반신은 물고기로 바꾸고 말았습니다.
+
+'이크! 급하니까 주문도 헷갈리는군.'
+
+당황한 판이 주문을 다시 바꾸려는 순간, 비명소리가 들려 왔습니다. "/>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그러나 마음씨 착한 여신은 사람들을 완전히 버릴 수가 없었습니다.
+그래서 밤 하늘에 별자리가 되어 사람들을 끝까지 돌보기로 했던 거죠.
+한 손에 인간의 선과 악을 저울질하는 천칭을 들고 서서, 정의는 아직도 살아 있다고 우리에게 가르쳐 주고 있는 겁니다."/>
+
+
+</LinearLayout>

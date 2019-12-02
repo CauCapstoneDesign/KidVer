@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스가 거인족에게 붙잡힌 것입니다.
+판은 주문을 바꿀 사이도 없이 풀피리를 꺼내 힘껏 불었습니다.
+풀피리에선 이제껏 들어 본 적 없는 괴상한 소리가 나왔고 겁에 질린 거인족은 걸음아 날 살려라 하고 도망을 쳤습니다. "/>
+
+
+</LinearLayout>

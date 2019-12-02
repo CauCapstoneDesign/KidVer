@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="제우스는 형제의 영혼을 하늘에 올려 나란히 두 개의 별자리로 만들었습니다.
+그 뒤부터 형제는 아름다운 빛을 내며 영원히 함께 있을 수 있게 되었습니다."/>
+
+
+</LinearLayout>

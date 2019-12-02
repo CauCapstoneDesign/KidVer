@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="아주 오랜 옛날, 그러니까 사람들이 세상에 막 나타났던 당시의 일입니다.
+그 때를 '황금의 시대' 라고 불렀습니다.
+황금의 시대에는 사람들이 미움을 몰랐습니다.
+미움을 모르니 싸움도 없었고, 창과 칼을 만들 필요도 없었답니다."/>
+
+</LinearLayout>

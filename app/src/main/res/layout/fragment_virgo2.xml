@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="데메테르라는 여신이 있었습니다.
+이 여신은 곡식을 돌보고 풍작을 약속하는 대지의 여신이었습니다.
+데메테르가 푸른 옷을 입고 온 나라의 밭에 축복을 주는 모습을 보며 많은 사람들은 존경해 마지 않았답니다.
+이 여신에게는 페르세포네라는아름다운 딸이 있었습니다."/>
+
+</LinearLayout>

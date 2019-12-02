@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="사람들은 명예와 진리를 잃어버리고 폭력과 사기, 죄악의 길로 들어섰습니다.
+그리고 땅 속에서 철이며 금을 캐내어 그것을 무기로 만들고 전쟁을 시작했어요.
+강한 자는 약한 자의 것을 빼았고 괴롭혔습니다.
+이것을 보다못한 신들은 사람들을 찾아다니며 설득했습니다.
+부디 황금 시대의 착한 마음을 버리지 말아 달라고요."/>
+
+
+</LinearLayout>

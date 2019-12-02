@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="이렇게 해서 에우로페의 이름을 기념해서 이름 지어진 곳이 바로 오늘날의 유럽이라고 합니다.
+공주를 너무나 사랑했던 제우스는 그 사랑을 기념한 별자리를 만들어 밤 하늘에 올렸습니다.
+바로 자신에게 몸을 빌려 준 황소 모양의 별자리였습니다."/>
+
+
+</LinearLayout>

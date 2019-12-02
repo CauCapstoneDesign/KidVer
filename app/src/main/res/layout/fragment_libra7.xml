@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="그러나 사람들은 신들의 호소를 들은 척도 하지 않고 점점 더 악해져만 갔습니다.
+사람들을 설득하다 지친 신들은 고개를 흔들며 천상으로 하나 둘씩 떠났습니다.
+그러나 정의의 여신인 아스트라에아만은 차마 사람들 곁을 떠날 수가 없었습니다.
+어떻게든 사람들에게 예전의 착한 마음을 되찾아 주고 싶었거든요."/>
+
+
+</LinearLayout>

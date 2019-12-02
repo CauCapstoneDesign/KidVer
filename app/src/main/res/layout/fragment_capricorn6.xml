@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="강가를 떠나지 못하고 며칠을 슬피 울던 판은 그녀가 변한 갈대를 꺾어 풀피리를 만들었습니다.
+ 매우 아름다운 소리를 내는 그 풀피리의 이름을 슈린크스라고 불렀어요. "/>
+
+
+</LinearLayout>

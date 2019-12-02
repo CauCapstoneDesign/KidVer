@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="밭을 갈고 씨를 뿌리며 일을 하지 않으면 대지의 은혜를 입을 수 없게 되었습니다.
+사람들은 남보다 조금이라도 더 차지하기 위해 욕심을 부리고 싸움을 하기 시작했습니다.
+이것을 본 신들은 사람들과 어울려 사는 것이 점차 힘들어졌습니다.
+그 다음으로 찾아온 철의 시대는 은의 시대보다도 더 험악해졌습니다."/>
+
+
+</LinearLayout>

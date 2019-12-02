@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="동생은 그 길로 달려가 형의 원수를 갚고 돌아왔어요.
+물론 불신의 몸을 가진 동생은 몸에 상처 하나 입지 않았죠.
+자신과 분신과도 같았던 형을 잃은 동생은 눈물로 하루하루를 보냈습니다.
+슬픔을 견디다 못한 동생은 아버지 제우스를 찾아갔어요."/>
+
+
+</LinearLayout>
